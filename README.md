@@ -1,5 +1,5 @@
 <h1 align="center"> 
-    ✨ WilliamButcherBot ✨ 
+    ✨🐈‍⬛ BLACK CAT ✨🐈‍⬛
 </h1>
 
 <h3 align="center"> 
