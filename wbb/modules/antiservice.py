@@ -1,5 +1,4 @@
-# Written By [MaskedVirus | swatv3nub] for Felicia and Ryūga
-# Kang With Proper Credits
+
 
 from pyrogram import filters
 
