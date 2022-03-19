@@ -13,13 +13,13 @@
     <a href="https://GitHub.com/TheHamkerCat">
         <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
     </a> <br>
-    <img src="https://img.shields.io/github/license/thehamkercat/FeliciaButcherBot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/thehamkercat/FeliciaButcherBot?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/thehamkercat/FeliciaButcherBot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/license/thehamkercat/FeliciaHardy_bot?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/thehamkercat/FeliciaHardy_bot?style=for-the-badge&logo=appveyor" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/thehamkercat/FeliciaHardy_bot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
-    <img src="https://img.shields.io/github/issues/thehamkercat/FeliciaButcherBot?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/thehamkercat/FeliciaButcherBot?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/thehamkercat/FeliciaButcherBot?style=for-the-badge&logo=appveyor" alt="Stars">
+    <img src="https://img.shields.io/github/issues/thehamkercat/FeliciaHardy_bot?style=for-the-badge&logo=appveyor" alt="Issues">
+    <img src="https://img.shields.io/github/forks/thehamkercat/FeliciaHardy_bot?style=for-the-badge&logo=appveyor" alt="Forks">
+    <img src="https://img.shields.io/github/stars/thehamkercat/FeliciaHardy_bot?style=for-the-badge&logo=appveyor" alt="Stars">
 </p>
 
 <h3 align="center"> 
@@ -28,7 +28,7 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/FeliciaButcherBot"> FeliciaButcherBot </a> | 
+    <a href="https://t.me/FeliciaHardy_bot"> FeliciaHardy_bot </a> | 
     <a href="https://t.me/wbbsupport"> WbbSupport </a>
 </p>
 
@@ -48,8 +48,8 @@
 </h2>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/FeliciaButcherBot
-thehamkercat@arch:~$ cd FeliciaButcherBot
+thehamkercat@arch:~$ git clone https://github.com/thehamkercat/FeliciaHardy_bot
+thehamkercat@arch:~$ cd FeliciaHardy_bot
 thehamkercat@arch:~$ pip3 install -U -r requirements.txt
 thehamkercat@arch:~$ cp sample_config.py config.py
 ```
@@ -67,7 +67,7 @@ thehamkercat@arch:~$ python3 -m wbb
 ```
 <h1>
     <p align="center">
-        <a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FTheHamkerCat%2FFeliciaButcherBot&plugins=mongodb&envs=BOT_TOKEN%2CAPI_ID%2CAPI_HASH%2CSESSION_STRING%2CSUDO_USERS_ID%2CLOG_GROUP_ID%2CGBAN_LOG_GROUP_ID%2CWELCOME_DELAY_KICK_SEC%2CARQ_API_URL%2CMESSAGE_DUMP_CHAT%2CARQ_API_KEY%2CLOG_MENTIONS%2CUSERBOT_PREFIX%2CRSS_DELAY%2CPM_PERMIT&optionalEnvs=SESSION_STRING%2CUSERBOT_PREFIX&BOT_TOKENDesc=Obtain+a+Telegram+bot+token+by+contacting+%40BotFather&API_IDDesc=API_ID+of+your+Telegram+Account+my.telegram.org%2Fapps&API_HASHDesc=API_HASH+of+your+Telegram+Account+my.telegram.org%2Fapps&SESSION_STRINGDesc=Need+for+Userbot+Module+So+u+can+execute+.sh+%26+.l+cmd&SUDO_USERS_IDDesc=Sudo+users+have+full+access+to+everythin%2C+don%27t+trust+anyone...+ex%3A-+123456+654311+123456&LOG_GROUP_IDDesc=For+logs+channel+to+note+down+important+bot+level+events%2C+recommend+to+make+this+public.+ex%3A+%27-123456%27&GBAN_LOG_GROUP_IDDesc=gban+logs.+ex%3A+%27-123456%27&WELCOME_DELAY_KICK_SECDesc=Welcome+Delay+Kick+Sec&ARQ_API_URLDesc=For+Music+Downloading+And+Many+More+Things...+Don%27t+change+this+value&MESSAGE_DUMP_CHATDesc=Chat_id+of+the+group+where+useless+things+will+go&ARQ_API_KEYDesc=Get+this+from+%40ARQRobot.&LOG_MENTIONSDesc=Fill+1+to+turn+this+on%2C+or+0+to+turn+it+off.&USERBOT_PREFIXDesc=Userbot+command+prefix%2C+Leave+it+empty+if+you+don%27t+know+what+that+is.&RSS_DELAYDesc=Delay+in+which+RSS+will+send+updates+in+chat&PM_PERMITDesc=Pm+permit%2C+fill+1+to+enable+or+0+to+disable+it.&WELCOME_DELAY_KICK_SECDefault=300&ARQ_API_URLDefault=https%3A%2F%2Fthearq.tech&LOG_MENTIONSDefault=1&RSS_DELAYDefault=300&PM_PERMITDefault=1&referralCode=QLc1H6">
+        <a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FTheHamkerCat%2FFeliciaHardy_bot&plugins=mongodb&envs=BOT_TOKEN%2CAPI_ID%2CAPI_HASH%2CSESSION_STRING%2CSUDO_USERS_ID%2CLOG_GROUP_ID%2CGBAN_LOG_GROUP_ID%2CWELCOME_DELAY_KICK_SEC%2CARQ_API_URL%2CMESSAGE_DUMP_CHAT%2CARQ_API_KEY%2CLOG_MENTIONS%2CUSERBOT_PREFIX%2CRSS_DELAY%2CPM_PERMIT&optionalEnvs=SESSION_STRING%2CUSERBOT_PREFIX&BOT_TOKENDesc=Obtain+a+Telegram+bot+token+by+contacting+%40BotFather&API_IDDesc=API_ID+of+your+Telegram+Account+my.telegram.org%2Fapps&API_HASHDesc=API_HASH+of+your+Telegram+Account+my.telegram.org%2Fapps&SESSION_STRINGDesc=Need+for+Userbot+Module+So+u+can+execute+.sh+%26+.l+cmd&SUDO_USERS_IDDesc=Sudo+users+have+full+access+to+everythin%2C+don%27t+trust+anyone...+ex%3A-+123456+654311+123456&LOG_GROUP_IDDesc=For+logs+channel+to+note+down+important+bot+level+events%2C+recommend+to+make+this+public.+ex%3A+%27-123456%27&GBAN_LOG_GROUP_IDDesc=gban+logs.+ex%3A+%27-123456%27&WELCOME_DELAY_KICK_SECDesc=Welcome+Delay+Kick+Sec&ARQ_API_URLDesc=For+Music+Downloading+And+Many+More+Things...+Don%27t+change+this+value&MESSAGE_DUMP_CHATDesc=Chat_id+of+the+group+where+useless+things+will+go&ARQ_API_KEYDesc=Get+this+from+%40ARQRobot.&LOG_MENTIONSDesc=Fill+1+to+turn+this+on%2C+or+0+to+turn+it+off.&USERBOT_PREFIXDesc=Userbot+command+prefix%2C+Leave+it+empty+if+you+don%27t+know+what+that+is.&RSS_DELAYDesc=Delay+in+which+RSS+will+send+updates+in+chat&PM_PERMITDesc=Pm+permit%2C+fill+1+to+enable+or+0+to+disable+it.&WELCOME_DELAY_KICK_SECDefault=300&ARQ_API_URLDefault=https%3A%2F%2Fthearq.tech&LOG_MENTIONSDefault=1&RSS_DELAYDefault=300&PM_PERMITDefault=1&referralCode=QLc1H6">
             <img src="https://railway.app/button.svg" alt="Deploy on Railway">
         </a>
     </p>
@@ -75,7 +75,7 @@ thehamkercat@arch:~$ python3 -m wbb
 
 <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/thehamkercat/FeliciaButcherBot">
+        <a href="https://heroku.com/deploy?template=https://github.com/thehamkercat/FeliciaHardy_bot">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
@@ -86,8 +86,8 @@ thehamkercat@arch:~$ python3 -m wbb
 </h3>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/FeliciaButcherBot
-thehamkercat@arch:~$ cd FeliciaButcherBot
+thehamkercat@arch:~$ git clone https://github.com/thehamkercat/FeliciaHardy_bot
+thehamkercat@arch:~$ cd FeliciaHardy_bot
 thehamkercat@arch:~$ pip3 install pyrogram TgCrypto
 thehamkercat@arch:~$ python3 str_gen.py
 ```
@@ -97,8 +97,8 @@ thehamkercat@arch:~$ python3 str_gen.py
 </h1>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/FeliciaButcherBot
-thehamkercat@arch:~$ cd FeliciaButcherBot
+thehamkercat@arch:~$ git clone https://github.com/thehamkercat/FeliciaHardy_bot
+thehamkercat@arch:~$ cd FeliciaHardy_bot
 thehamkercat@arch:~$ cp sample_config.env config.env
 ```
 
