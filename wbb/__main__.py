@@ -111,7 +111,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/The-Quaint/FeliciaHardy_bot",
+                url="https://github.com/The-Quaint/Black-Cat-New",
             ),
         ],
         [
@@ -148,7 +148,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/FeliciaHardy_bot",
+                url="https://github.com/The-Quaint/Black-Cat-New",
             ),
         ],
         [
