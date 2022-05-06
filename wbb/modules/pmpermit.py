@@ -25,10 +25,13 @@ SOFTWARE.
 from pyrogram import filters
 from pyrogram.raw.functions.messages import DeleteHistory
 
-from wbb import BOT_ID, SUDOERS, USERBOT_ID, USERBOT_PREFIX, app, app2, eor
+from wbb import BOT_ID, PM_PERMIT, SUDOERS, USERBOT_ID, USERBOT_PREFIX, app, app2, eor
 from wbb.core.decorators.errors import capture_err
-from wbb.utils.dbfunctions import (approve_pmpermit, disapprove_pmpermit,
-                                   is_pmpermit_approved)
+from wbb.utils.dbfunctions import (
+    approve_pmpermit,
+    disapprove_pmpermit,
+    is_pmpermit_approved,
+)
 
 flood = {}
 
@@ -41,12 +44,12 @@ flood = {}
     & ~filters.me
     & ~filters.bot
     & ~filters.via_bot
-    & ~filters.user(SUDOERS)
+    & ~SUDOERS
 )
 @capture_err
 async def pmpermit_func(_, message):
     user_id = message.from_user.id
-    if await is_pmpermit_approved(user_id):
+    if not PM_PERMIT or await is_pmpermit_approved(user_id):
         return
     async for m in app2.iter_history(user_id, limit=6):
         if m.reply_markup:
@@ -63,13 +66,12 @@ async def pmpermit_func(_, message):
         user_id,
         results.query_id,
         results.results[0].id,
-        hide_via=True,
     )
 
 
 @app2.on_message(
     filters.command("approve", prefixes=USERBOT_PREFIX)
-    & filters.user(SUDOERS)
+    & SUDOERS
     & ~filters.via_bot
 )
 @capture_err
@@ -85,7 +87,7 @@ async def pm_approve(_, message):
 
 @app2.on_message(
     filters.command("disapprove", prefixes=USERBOT_PREFIX)
-    & filters.user(SUDOERS)
+    & SUDOERS
     & ~filters.via_bot
 )
 async def pm_disapprove(_, message):
@@ -109,7 +111,7 @@ async def pm_disapprove(_, message):
 
 @app2.on_message(
     filters.command("block", prefixes=USERBOT_PREFIX)
-    & filters.user(SUDOERS)
+    & SUDOERS
     & ~filters.via_bot
 )
 @capture_err
@@ -124,7 +126,7 @@ async def block_user_func(_, message):
 
 @app2.on_message(
     filters.command("unblock", prefixes=USERBOT_PREFIX)
-    & filters.user(SUDOERS)
+    & SUDOERS
     & ~filters.via_bot
 )
 async def unblock_user_func(_, message):
