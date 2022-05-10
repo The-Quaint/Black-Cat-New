@@ -11,7 +11,7 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "repository": "https://github.com/The-Quaint/FeliciaHardy_bot",
+    "repository": "https://github.com/The-Quaint/Black-Cat-New",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
